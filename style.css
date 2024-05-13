@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: hsl(218, 23%, 16%);
+}
+main{
+  width: min-content;
+  background: hsl(217, 19%, 24%);
+  padding: 20px;
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 10px;
+  
+}
+h3{
+  color: hsl(150, 100%, 66%);
+}
+h2{
+  color: hsl(217, 19%, 38%);
+
+}
+button {
+  background:hsl(150, 100%, 66%) ;
+  border-radius:55% ;
+  border:none;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+button:hover{
+box-shadow: 5px 5px 65px  hsl(150, 100%, 66%) ;
+}
