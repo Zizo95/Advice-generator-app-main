@@ -30,3 +30,27 @@ button {
 button:hover{
 box-shadow: 5px 5px 65px  hsl(150, 100%, 66%) ;
 }
+.mobile{
+  display: none;
+}
+@media  screen and (max-width: 600px) {
+  main{
+    width: 70%;
+  }
+  .mobile{
+    display: block;
+    margin: auto;
+  }
+  .desktop{
+    display: none;
+  }
+}
+@media screen and (max-width: 470px) {
+  main{
+    width: 70%;
+  }
+  .mobile{
+width: 80%;
+  }
+
+}
